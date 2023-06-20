@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18FAAA362A3F667F001A8660 /* FurryFriendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAAA352A3F667F001A8660 /* FurryFriendsApp.swift */; };
-		18FAAA382A3F667F001A8660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAAA372A3F667F001A8660 /* ContentView.swift */; };
+		18ECAC832A3F77F90052AA36 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC822A3F77F90052AA36 /* Users.swift */; };
+		18ECAC852A3F78D90052AA36 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC842A3F78D90052AA36 /* Posts.swift */; };
+		18ECAC872A3F7F7C0052AA36 /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC862A3F7F7C0052AA36 /* PetsViewModel.swift */; };
+		18ECAC892A3F97E60052AA36 /* PetPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC882A3F97E60052AA36 /* PetPostsView.swift */; };
+		18ECAC8B2A3F97F80052AA36 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC8A2A3F97F80052AA36 /* SearchView.swift */; };
+		18ECAC8D2A3FA3010052AA36 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC8C2A3FA3010052AA36 /* AccountView.swift */; };
+		18ECAC8F2A3FA3D70052AA36 /* LostAndFoundPetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC8E2A3FA3D70052AA36 /* LostAndFoundPetsView.swift */; };
+		18ECAC912A3FA4330052AA36 /* MyPets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC902A3FA4330052AA36 /* MyPets.swift */; };
+		18ECAC932A3FA4FF0052AA36 /* MyFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC922A3FA4FF0052AA36 /* MyFriendsView.swift */; };
+		18ECAC952A409D800052AA36 /* LostPetPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC942A409D800052AA36 /* LostPetPostView.swift */; };
+		18FAAA362A3F667F001A8660 /* PetPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAAA352A3F667F001A8660 /* PetPalApp.swift */; };
+		18FAAA382A3F667F001A8660 /* PetPal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAAA372A3F667F001A8660 /* PetPal.swift */; };
 		18FAAA3A2A3F6681001A8660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAAA392A3F6681001A8660 /* Assets.xcassets */; };
 		18FAAA3D2A3F6681001A8660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FAAA3C2A3F6681001A8660 /* Preview Assets.xcassets */; };
+		18FAAA472A3F6EA2001A8660 /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAAA462A3F6EA2001A8660 /* Pets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18ECAC822A3F77F90052AA36 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		18ECAC842A3F78D90052AA36 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		18ECAC862A3F7F7C0052AA36 /* PetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewModel.swift; sourceTree = "<group>"; };
+		18ECAC882A3F97E60052AA36 /* PetPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPostsView.swift; sourceTree = "<group>"; };
+		18ECAC8A2A3F97F80052AA36 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		18ECAC8C2A3FA3010052AA36 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		18ECAC8E2A3FA3D70052AA36 /* LostAndFoundPetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostAndFoundPetsView.swift; sourceTree = "<group>"; };
+		18ECAC902A3FA4330052AA36 /* MyPets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPets.swift; sourceTree = "<group>"; };
+		18ECAC922A3FA4FF0052AA36 /* MyFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsView.swift; sourceTree = "<group>"; };
+		18ECAC942A409D800052AA36 /* LostPetPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostPetPostView.swift; sourceTree = "<group>"; };
 		18FAAA322A3F667F001A8660 /* FurryFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurryFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18FAAA352A3F667F001A8660 /* FurryFriendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurryFriendsApp.swift; sourceTree = "<group>"; };
-		18FAAA372A3F667F001A8660 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18FAAA352A3F667F001A8660 /* PetPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPalApp.swift; sourceTree = "<group>"; };
+		18FAAA372A3F667F001A8660 /* PetPal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPal.swift; sourceTree = "<group>"; };
 		18FAAA392A3F6681001A8660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FAAA3C2A3F6681001A8660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18FAAA462A3F6EA2001A8660 /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,10 @@
 		18FAAA342A3F667F001A8660 /* FurryFriends */ = {
 			isa = PBXGroup;
 			children = (
-				18FAAA352A3F667F001A8660 /* FurryFriendsApp.swift */,
-				18FAAA372A3F667F001A8660 /* ContentView.swift */,
+				18FAAA352A3F667F001A8660 /* PetPalApp.swift */,
+				18FAAA452A3F6D0D001A8660 /* View */,
+				18FAAA442A3F6D05001A8660 /* ViewModel */,
+				18FAAA432A3F6CED001A8660 /* Model */,
 				18FAAA392A3F6681001A8660 /* Assets.xcassets */,
 				18FAAA3B2A3F6681001A8660 /* Preview Content */,
 			);
@@ -65,6 +89,39 @@
 				18FAAA3C2A3F6681001A8660 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18FAAA432A3F6CED001A8660 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18FAAA462A3F6EA2001A8660 /* Pets.swift */,
+				18ECAC822A3F77F90052AA36 /* Users.swift */,
+				18ECAC842A3F78D90052AA36 /* Posts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18FAAA442A3F6D05001A8660 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18ECAC862A3F7F7C0052AA36 /* PetsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18FAAA452A3F6D0D001A8660 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18FAAA372A3F667F001A8660 /* PetPal.swift */,
+				18ECAC882A3F97E60052AA36 /* PetPostsView.swift */,
+				18ECAC8A2A3F97F80052AA36 /* SearchView.swift */,
+				18ECAC8C2A3FA3010052AA36 /* AccountView.swift */,
+				18ECAC8E2A3FA3D70052AA36 /* LostAndFoundPetsView.swift */,
+				18ECAC902A3FA4330052AA36 /* MyPets.swift */,
+				18ECAC922A3FA4FF0052AA36 /* MyFriendsView.swift */,
+				18ECAC942A409D800052AA36 /* LostPetPostView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FAAA382A3F667F001A8660 /* ContentView.swift in Sources */,
-				18FAAA362A3F667F001A8660 /* FurryFriendsApp.swift in Sources */,
+				18ECAC872A3F7F7C0052AA36 /* PetsViewModel.swift in Sources */,
+				18ECAC832A3F77F90052AA36 /* Users.swift in Sources */,
+				18FAAA472A3F6EA2001A8660 /* Pets.swift in Sources */,
+				18ECAC852A3F78D90052AA36 /* Posts.swift in Sources */,
+				18ECAC8F2A3FA3D70052AA36 /* LostAndFoundPetsView.swift in Sources */,
+				18ECAC8B2A3F97F80052AA36 /* SearchView.swift in Sources */,
+				18FAAA382A3F667F001A8660 /* PetPal.swift in Sources */,
+				18ECAC8D2A3FA3010052AA36 /* AccountView.swift in Sources */,
+				18ECAC912A3FA4330052AA36 /* MyPets.swift in Sources */,
+				18ECAC892A3F97E60052AA36 /* PetPostsView.swift in Sources */,
+				18ECAC932A3FA4FF0052AA36 /* MyFriendsView.swift in Sources */,
+				18FAAA362A3F667F001A8660 /* PetPalApp.swift in Sources */,
+				18ECAC952A409D800052AA36 /* LostPetPostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

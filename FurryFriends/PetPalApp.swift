@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct FurryFriendsApp: App {
+struct PetPalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PetPal()
         }
     }
 }
